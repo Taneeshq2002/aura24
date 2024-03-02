@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.demo {
+  height: 20rem;
+  width: 20rem;
+  background-color: yellow;
+  margin-top: 15%;
+  border-radius: 10rem;
+  animation: boxanim 10s linear infinite;
+}
+
+@keyframes boxanim {
+  0% {
+    box-shadow: 0px 0px 10px white;
+  }
+  1% {
+    box-shadow: 0px 0px 30px white; /*dot-A*/
+  }
+  3% {
+    box-shadow: 0px 0px 10px white;
+  }
+  4% {
+    box-shadow: 0px 0px 50px white; /*dash-A*/
+  }
+  24% {
+    box-shadow: 0px 0px 10px white;
+  }
+  25% {
+    box-shadow: 0px 0px 30px rgb(6, 243, 6); /*dot-U*/
+  }
+  27% {
+    box-shadow: 0px 0px 10px rgb(6, 243, 6);
+  }
+  29% {
+    box-shadow: 0px 0px 30px rgb(6, 243, 6); /*dot-U*/
+  }
+  31% {
+    box-shadow: 0px 0px 10px rgb(6, 243, 6);
+  }
+  32% {
+    box-shadow: 0px 0px 50px rgb(6, 243, 6); /*dash-U*/
+  }
+  52% {
+    box-shadow: 0px 0px 10px rgb(6, 243, 6);
+  }
+  53% {
+    box-shadow: 0px 0px 30px white; /*dot-R*/
+  }
+  55% {
+    box-shadow: 0px 0px 10px white;
+  }
+  56% {
+    box-shadow: 0px 0px 50px white; /*dash-R*/
+  }
+  76% {
+    box-shadow: 0px 0px 10px white;
+  }
+  77% {
+    box-shadow: 0px 0px 30px white; /*dot-R*/
+  }
+  79% {
+    box-shadow: 0px 0px 10px white;
+  }
+  81% {
+    box-shadow: 0px 0px 10px black; /*delay*/
+  }
+  83% {
+    box-shadow: 0px 0px 30px rgb(6, 243, 6); /*dot-A*/
+  }
+  85% {
+    box-shadow: 0px 0px 10px rgb(6, 243, 6);
+  }
+  86% {
+    box-shadow: 0px 0px 50px rgb(6, 243, 6); /*dash-A*/
+  }
+  100% {
+    box-shadow: 0px 0px 10px rgb(6, 243, 6);
+  }
+}
